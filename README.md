@@ -1,7 +1,5 @@
 # Some setting files about vim
 
--------------------------------
-
 ##Include:
 
 *   .vimrc
