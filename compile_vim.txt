@@ -1,0 +1,13 @@
+__Compiling gvim__
+
+./configure --prefix=/home/lafwind/Laf_gVim/ --enable-perlinterp=yes
+--enable-pythoninterp=yes --enable-python3interp=yes
+--with-python-config-dir=/usr/bin/python3-config --enable-tclinterp
+--enable-rubyinterp=yes --enable-cscope --enable-sniff --enable-hangulinput
+--enable-fontset --enable-gui=auto --with-compiledby=Lafwind
+--enable-luainterp=dynamic --with-lua-prefix=/usr/local --with-features=huge
+--enable-multibyte --with-x --enable-xim
+
+加入-enable-xim会出错... //input chinese
+
+把编译好的gvim 的快捷方式放到/usr/local/bin/中,就可以以他作为优先启动。
